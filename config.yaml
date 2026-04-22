@@ -1,0 +1,14 @@
+llm_models:
+  - name: "copaw-flash-9b"
+    base_url: "http://127.0.0.1:1234/v1"
+    api_key: "copaw-flash-9b"
+    model: "copaw-flash-9b"
+  - name: "gag0/qwen35-opus-distil:27b"
+    base_url: "http://192.168.68.185:11434/v1"
+    api_key: "your_api_key_here"
+    model: "gag0/qwen35-opus-distil:27b"
+
+default_participants: 3
+
+search_enabled: true
+max_rounds: 3
